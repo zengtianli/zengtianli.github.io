@@ -605,7 +605,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-07-19 17:27:39" itemprop="dateModified" datetime="2020-07-19T17:27:39+08:00">2020-07-19</time>
+                <time title="修改时间：2020-07-21 02:24:18" itemprop="dateModified" datetime="2020-07-21T02:24:18+08:00">2020-07-21</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -770,7 +770,111 @@
 <h2 id="introduce-vim-plug-in"><a href="#introduce-vim-plug-in" class="headerlink" title="introduce vim plug-in"></a>introduce vim plug-in</h2><p><strong>unimpaired</strong> this is neat pretty, the author also has excellent coding ability.<br>I just think how much I could learn from these many great vimscript code, I shouldn’t waste time to read and learn suck code before.</p>
 <p>The other things that I need to take car are 1, I read too quickly to notice it and waste time to search. I should be patient. 2 Readme.md sometime doesn’t give enough detail, so the ability of reading code is extremely important!!</p>
 <h2 id="zsh-tips"><a href="#zsh-tips" class="headerlink" title="zsh tips"></a>zsh tips</h2><p><strong>edit-command-line</strong></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">autoload</span> edit-command-line; <span class="built_in">zle</span> -N edit-command-line</span><br><span class="line"><span class="built_in">bindkey</span> <span class="string">'^V'</span> edit-command-line</span><br><span class="line"><span class="built_in">type</span> r <span class="comment"># check alias or function type and redirected command</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">autoload</span> edit-command-line; <span class="built_in">zle</span> -N edit-command-line</span><br><span class="line"><span class="built_in">bindkey</span> <span class="string">'^V'</span> edit-command-line</span><br><span class="line"><span class="built_in">type</span> r <span class="comment"># check alias or function type and redirected command</span></span><br><span class="line"><span class="built_in">alias</span> nt=<span class="string">"sh -c 'cd <span class="variable">$(pwd)</span>; st' &gt; /dev/null 2&gt;&amp;1 &amp;"</span></span><br><span class="line">`/dev/null 2&gt;&amp;1 &amp;</span><br></pre></td></tr></table></figure>
+<h2 id="occasional-find"><a href="#occasional-find" class="headerlink" title="occasional find"></a>occasional find</h2><table>
+<thead>
+<tr>
+<th>with ctrl</th>
+<th>meaning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&lt;++&gt;</td>
+<td>&lt;++&gt;</td>
+</tr>
+<tr>
+<td>r</td>
+<td>history</td>
+</tr>
+<tr>
+<td>p</td>
+<td>fzf with zsh</td>
+</tr>
+<tr>
+<td>&lt;++&gt;</td>
+<td>&lt;++&gt;</td>
+</tr>
+</tbody></table>
+<h3 id="my-failures-and-backup-solution"><a href="#my-failures-and-backup-solution" class="headerlink" title="my failures and backup solution"></a>my failures and backup solution</h3><p>try to reload the chromium in vim/terminal but failed</p>
+<p>so switch to reload firefox </p>
+<p>dwm explianation and luke</p>
+<table>
+<thead>
+<tr>
+<th>&lt;++&gt;</th>
+<th>&lt;++&gt;</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&lt;++&gt;</td>
+<td>&lt;++&gt;</td>
+</tr>
+<tr>
+<td>focusmon</td>
+<td>switch focused monitor</td>
+</tr>
+<tr>
+<td>tagmon</td>
+<td>push tag to monitor</td>
+</tr>
+<tr>
+<td>super+_</td>
+<td>switch to primary tag</td>
+</tr>
+<tr>
+<td>super+(shift) tyui</td>
+<td>different 8 layouts</td>
+</tr>
+<tr>
+<td>super+Lclick</td>
+<td>float</td>
+</tr>
+<tr>
+<td>super+Rclick</td>
+<td>resize floated window</td>
+</tr>
+<tr>
+<td>super+shift+_</td>
+<td>unfloat</td>
+</tr>
+<tr>
+<td>super+F</td>
+<td>all float</td>
+</tr>
+<tr>
+<td>super+t</td>
+<td>tilded from float</td>
+</tr>
+<tr>
+<td>super+a/z/x</td>
+<td>turn off, decrease, increase gap</td>
+</tr>
+<tr>
+<td>super+b</td>
+<td>toggle status bar</td>
+</tr>
+<tr>
+<td>super+S</td>
+<td>sticky window, the selected window follow the tag change</td>
+</tr>
+<tr>
+<td>&lt;++&gt;</td>
+<td>&lt;++&gt;</td>
+</tr>
+<tr>
+<td>&lt;++&gt;</td>
+<td>&lt;++&gt;</td>
+</tr>
+<tr>
+<td>&lt;++&gt;</td>
+<td>&lt;++&gt;</td>
+</tr>
+<tr>
+<td>&lt;++&gt;</td>
+<td>&lt;++&gt;</td>
+</tr>
+</tbody></table>
+<p>todolist<br>vimwiki</p>
 
       
     </div>
