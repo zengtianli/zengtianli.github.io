@@ -169,9 +169,9 @@
             
             <tag> React </tag>
             
-            <tag> Web Development </tag>
-            
             <tag> Reading List </tag>
+            
+            <tag> Web Development </tag>
             
         </tags>
       
@@ -264,9 +264,9 @@
             
             <tag> React </tag>
             
-            <tag> ReactDOM </tag>
-            
             <tag> Web Development </tag>
+            
+            <tag> ReactDOM </tag>
             
         </tags>
       
@@ -907,6 +907,8 @@
       
         <tags>
             
+            <tag> Tutorial </tag>
+            
             <tag> Data Processing </tag>
             
             <tag> CSV </tag>
@@ -914,8 +916,6 @@
             <tag> Microsoft Word </tag>
             
             <tag> Microsoft Excel </tag>
-            
-            <tag> Tutorial </tag>
             
         </tags>
       
@@ -975,9 +975,9 @@
       
         <tags>
             
-            <tag> Data Processing </tag>
-            
             <tag> Tutorial </tag>
+            
+            <tag> Data Processing </tag>
             
             <tag> Python </tag>
             
@@ -1301,11 +1301,11 @@
       
         <tags>
             
-            <tag> Tutorial </tag>
-            
             <tag> Docker </tag>
             
             <tag> Beginners </tag>
+            
+            <tag> Tutorial </tag>
             
             <tag> Containerization </tag>
             
@@ -1495,9 +1495,9 @@
       
         <tags>
             
-            <tag> Tutorial </tag>
-            
             <tag> Docker </tag>
+            
+            <tag> Tutorial </tag>
             
             <tag> Proxy </tag>
             
